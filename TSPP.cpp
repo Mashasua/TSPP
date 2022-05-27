@@ -6,6 +6,84 @@
 #include <stdio.h>
 #include <iostream>
 
+using namespace std;
+
+class Good
+{
+public:
+	Good();
+	~Good();
+
+private:
+
+};
+
+Good::Good()
+{
+}
+
+Good::~Good()
+{
+}
+
+
+class Catalog
+{
+public:
+	Catalog();
+	~Catalog();
+
+private:
+
+};
+
+Catalog::Catalog()
+{
+}
+
+Catalog::~Catalog()
+{
+}
+
+
+class Order 
+{
+public:
+	Order ();
+	~Order ();
+
+private:
+
+};
+
+Order ::Order ()
+{
+}
+
+Order ::~Order ()
+{
+}
+
+
+class Chatting  //посмотреть какой там был класс, связанный с общением коментами
+{
+public:
+	Chatting 
+	~Chatting 
+
+private:
+
+};
+
+Chatting 
+{
+}
+
+Chatting 
+{
+}
+
+
 int main()
 {
     std::cout << "Hello World!\n";
