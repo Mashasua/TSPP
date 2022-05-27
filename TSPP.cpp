@@ -7,48 +7,41 @@
 #include <iostream>
 
 using namespace std;
-
+//считаем что товар уже создан и читаем из файла?
 class Good
 {
 public:
-	Good();
-	~Good();
+	string desription;
+	int amount;
+	double price;
+	bool in stock;
+	string name;
+	string firma_name;
+
+	goods[]:Good; // массив из товаров? как записать и где (вспомнить)
 
 private:
-
+	void change_parametrs; // имя и тд
+	void dob_description;
 };
-
-Good::Good()
-{
-}
-
-Good::~Good()
-{
-}
 
 
 class Catalog
 {
 public:
-	Catalog();
-	~Catalog();
+	int order_components;
 
 private:
 
 };
 
-Catalog::Catalog()
-{
-}
-
-Catalog::~Catalog()
-{
-}
-
 
 class Order 
 {
 public:
+	string adress;
+	double delivery price;
+	int_components of order
 	Order ();
 	~Order ();
 
@@ -72,6 +65,9 @@ public:
 	~Chatting 
 
 private:
+	void write_comment;
+	void write_otziv;
+	void write_answer;
 
 };
 
@@ -88,8 +84,6 @@ int main()
 {
     std::cout << "Hello World!\n";
 }
-
-
 
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
