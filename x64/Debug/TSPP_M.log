@@ -1,5 +1,0 @@
-﻿  TSPP_M.cpp
-  Users.cpp
-  Создание кода...
-C:\Users\danii\source\repos\TSPP_M\Users.cpp(52): warning C4717: operator==: рекурсия на всех путях выполнения, функция вызовет переполнение стека
-  TSPP_M.vcxproj -> C:\Users\danii\source\repos\TSPP_M\x64\Debug\TSPP_M.exe
