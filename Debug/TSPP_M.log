@@ -1,0 +1,9 @@
+﻿  Catalog.cpp
+  Order.cpp
+  Product.cpp
+  TSPP_M.cpp
+  Users.cpp
+  Создание кода...
+C:\Users\danii\source\repos\TSPP_M\Product.cpp(124): warning C4717: operator==: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+TSPP_M.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall Product::Product(int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,double,int,bool)" (??0Product@@QAE@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00NH_N@Z) в функции _main.
+C:\Users\danii\source\repos\TSPP_M\Debug\TSPP_M.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
